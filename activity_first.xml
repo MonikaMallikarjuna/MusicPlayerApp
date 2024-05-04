@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_launcher.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".first"
+    android:background="@color/lavender">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="148dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Musify"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="#F1EFF1" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:text="Log In" />
+
+</LinearLayout>
